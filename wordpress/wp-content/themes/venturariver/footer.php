@@ -26,21 +26,16 @@
 
    <footer class="site-footer" id="colophon">
 
-  <div class="container-fluid">
-
+  <div class="container">
+  <div class="footer">
        <div class="row">
-         <div class="col-md-4">
-           <i class="fa fa-phone" aria-hidden="true"></i>
-           <p>(805) 656-1019</p>
-         </div>
-         <div class="col-md-4">
-           <i class="fa fa-envelope" aria-hidden="true"></i><p>info@venturacraneinc.com</p>
-         </div>
-         <div class="col-md-4">
-           <i class="fa fa-home" aria-hidden="true"></i><p>114 E Sanata Maria St, Santa Paula, CA 93060</p>
-         </div>
+           <p>Ventura River Water District</p>
+           <p>(805) 643-3403</p>
+           <p>Bert@VenturaRiverWD.com</p>
+           <p>09 Old Baldwin Road, Ojai, CA 93023</p>
+           <p>Contact Us</p>
        </div>
-
+</div>
 </div>
 
    </footer><!-- #colophon -->

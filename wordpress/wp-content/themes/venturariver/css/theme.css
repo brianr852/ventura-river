@@ -9215,7 +9215,7 @@ h1.navbar-brand a:hover {
   margin-top: 80px; }
 
 #wrapper-footer {
-  background-color: #000;
+  background-color: #1aa3ff;
   color: #fff;
   font-size: 12px;
   font-weight: bold;
@@ -9226,6 +9226,17 @@ h1.navbar-brand a:hover {
 
 #full-width-page-wrapper {
   padding-bottom: 100px; }
+
+.footer {
+  padding-top: 20px; }
+
+.footer p {
+  padding-left: 20px;
+  padding-right: 20px;
+  border-right: solid white 1.5px; }
+
+.footer p:last-child {
+  border-right: none; }
 
 h1 {
   margin: 0 auto;
@@ -9246,10 +9257,14 @@ h1 {
   font-weight: 600;
   padding-left: 75px; }
 
-#wrapper-navbar {
+.logo {
+  padding-left: 100px; }
+
+.fixed {
   position: fixed;
+  top: 0;
   width: 100%;
-  z-index: 99; }
+  z-index: 20; }
 
 .navbar {
   padding-right: 170px;
@@ -9257,7 +9272,7 @@ h1 {
   border-bottom: solid; }
 
 #main-menu li a {
-  color: black; }
+  color: #fff; }
 
 .fixed {
   position: fixed;
@@ -9276,19 +9291,16 @@ h1 {
   border: 0;
   color: #444; }
 
+#main-menu li a {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-right: 20px; }
+
 .clear {
   clear: both; }
 
 h3 {
   font-family: 'Metrophobic', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-
-.image-cover {
-  height: 600px;
-  color: #fff;
-  text-align: center;
-  background: url("../assets/img/construction.jpg") no-repeat;
-  background-size: cover;
-  text-transform: uppercase; }
 
 .image-slider {
   width: 50%;
@@ -9338,13 +9350,13 @@ h3 {
   line-height: 1.1em;
   font-family: 'Metrophobic', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
-.rigging-section {
-  background-color: #1aa3ff;
+.contact-section {
+  background-color: #1877b7;
   background-size: cover;
   padding: 30px; }
 
-.trucking-section {
-  background: url("http://localhost:3000/wp-content/themes/venturariver/assets/img/water.png") no-repeat;
+.forms-section {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0, #f9feff 851px, white 290px), url(http://localhost:3000/wp-content/themes/venturariver/assets/img/water.png) no-repeat, url("http://localhost:3000/wp-content/themes/venturariver/assets/img/water.png") no-repeat;
   background-size: 100% 100%;
   padding: 30px; }
 
@@ -9363,12 +9375,19 @@ h3 {
   padding: 30px;
   color: #fff;
   font-weight: 600;
-  width: 60%;
   background: #323232;
   /* Fallback for older browsers without RGBA-support */
   background: rgba(50, 50, 50, 0.5);
   position: relative;
   margin: 0; }
+
+.contact {
+  padding-top: 30px; }
+
+.contact p {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1em; }
 
 .info-content {
   padding: 30px;
@@ -9389,6 +9408,9 @@ h3 {
   color: #000f1a;
   font-weight: bolder;
   text-transform: uppercase; }
+
+.status-content {
+  padding-top: 100px; }
 
 .status-content h2 {
   padding-top: 20px;
@@ -9416,12 +9438,12 @@ h3 {
   font-weight: bold;
   margin-top: 25px; }
 
+.clear {
+  clear: both; }
+
 .btn:hover, .wpcf7 input[type=submit]:hover {
   text-decoration: none;
   opacity: .9; }
-
-.contact p {
-  color: #444; }
 
 .icon-content {
   color: #00134d;
@@ -9504,6 +9526,9 @@ h3 {
 .gform_body {
   color: #fff; }
 
+.gform_wrapper label.gfield_label {
+  font-size: .9em !important; }
+
 .gfield_label {
   margin-bottom: 0 !important; }
 
@@ -9515,6 +9540,9 @@ body .gform_wrapper .gform_body .gform_fields .gfield input[type="text"]:focus,
 body .gform_wrapper .gform_body .gform_fields .gfield textarea:focus {
   opacity: 1;
   border-color: none; }
+
+.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+  padding: 0; }
 
 .gform_wrapper h3.gform_title {
   font-size: 2em !important; }
@@ -9535,8 +9563,7 @@ body .gform_wrapper .gform_body .gform_fields .gfield textarea:focus {
   border: solid #ffffff 3px;
   text-decoration: none;
   color: #ffffff;
-  font-weight: bold;
-  padding-top: 5px; }
+  font-weight: bold; }
 
 #primary {
   padding-bottom: 30px; }
@@ -9632,21 +9659,21 @@ body .gform_wrapper .gform_body .gform_fields .gfield textarea:focus {
   background-color: #fff; }
 
 .carousel-caption {
-  background: rgba(0, 5, 5, 0.5);
+  background: rgba(50, 50, 50, 0.5);
   position: absolute;
-  bottom: 150px;
-  left: 100px;
+  bottom: 200px;
   z-index: 10;
   padding-top: 20px;
   color: #fff;
   text-align: left;
   padding-left: 40px;
   padding-right: 20px;
-  width: 25%; }
+  width: 70%; }
 
 .carousel-caption p {
-  font-size: 14px;
-  font-weight: bold; }
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center; }
 
 .carousel-caption h4 {
   font-size: 24px;
@@ -9745,8 +9772,7 @@ h4 {
   background: rgba(50, 50, 50, 0.5); }
 
 .carousel-control {
-  color: #fff;
-  width: 5%; }
+  color: #fff; }
 
 .carousel-control:hover, .carousel-control:focus {
   color: #31708f; }
@@ -9766,10 +9792,16 @@ h4 {
     margin-top: 0; }
   .learn-content {
     width: 100%; }
+  h3 {
+    font-size: 1em; }
   .testimonial-img {
     margin: 0; }
   .caption {
     margin: 0; }
+  .carousel-caption {
+    bottom: 50px; }
+  .carousel-caption p {
+    font-size: 1em; }
   .carousel-inner, #carousel-example-generic, .carousel-item {
     height: 400px; }
   .slider-content h1 {
