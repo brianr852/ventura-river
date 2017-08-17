@@ -9388,8 +9388,7 @@ h3 {
   font-family: "Times New Roman", Times;
   color: #000f1a;
   font-weight: bolder;
-  text-transform: uppercase;
-  padding-bottom: 20px; }
+  text-transform: uppercase; }
 
 .status-content h2 {
   padding-top: 20px;
@@ -9464,6 +9463,29 @@ h3 {
   color: #9c9c9c;
   margin-top: 30px;
   text-align: center; }
+
+.service-title {
+  padding: 2px 0 0 0;
+  position: relative;
+  margin: 0 0 16px 0;
+  clear: none;
+  letter-spacing: 1px;
+  font-size: 1.25em;
+  color: #2c353d;
+  text-align: center; }
+
+.service-title:after {
+  content: ' ';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 40px;
+  border: 1px solid #1aa3ff;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  transform: translateX(-50%);
+  margin-top: 10px;
+  opacity: .5; }
 
 .service-content {
   margin: 0.85em 0;

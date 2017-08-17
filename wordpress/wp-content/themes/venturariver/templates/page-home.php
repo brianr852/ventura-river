@@ -70,7 +70,7 @@
 
 
     <div class="why-section" style="background-repeat: no-repeat;background-image: url(<?php echo get_template_directory_uri(); ?>/img/house-wire-model-fade-white-1500x1085.png);background-attachment: fixed;background-position: top left;background-repeat: no-repeat;background-size: cover;">
-  <div class="container">
+  <div class="container-fluid">
   <div class="row">
     <div class="col-md-3">
       <div class="icon-content"><i class="fa fa-certificate" aria-hidden="true"></i></div>
