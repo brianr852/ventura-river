@@ -81,7 +81,7 @@ get_header(); ?>
                 <div class="col-md-3">
                   <div class="icon-content"><i class="fa fa-newspaper-o" aria-hidden="true"></i></div>
                   <div class="icon-section">
-                    <div class="icon-title">E-Billing</div>
+                    <div class="why-title">E-Billing</div>
                     <p>Sign up for e-billing and online payment options. Autopay/ACH is free. Service fees will apply to credit/debit card/ e-check payments.
                     </p>
                   <!--  <a href=""><button class="slider-btn">Pay Online</button></a> -->
@@ -90,7 +90,7 @@ get_header(); ?>
                 <div class="col-md-3">
                   <div class="icon-content"><i class="fa fa-certificate" aria-hidden="true"></i></div>
                   <div class="icon-section">
-                    <div class="icon-title">Authority to Operate</div>
+                    <div class="why-title">Authority to Operate</div>
                     <p>Click here to read about our authority to operate
                     </p>
                   </div>
@@ -98,7 +98,7 @@ get_header(); ?>
                 <div class="col-md-3">
                   <div class="icon-content"><i class="fa fa-clock-o" aria-hidden="true"></i></div>
                   <div class="icon-section">
-                    <div class="icon-title">Hours of Operation</div>
+                    <div class="why-title">Hours of Operation</div>
                     <p>We are open Monday through Friday. <br>
                       7:30 A.M. to 4:30 P.M.
                     </p>
@@ -107,7 +107,7 @@ get_header(); ?>
                 <div class="col-md-3">
                   <div class="icon-content"><i class="fa fa-newspaper-o" aria-hidden="true"></i></div>
                   <div class="icon-section">
-                    <div class="icon-title">Mission Statement</div>
+                    <div class="why-title">Mission Statement</div>
                     <p>Learn about our mission
                     </p>
                   </div>
@@ -140,7 +140,7 @@ get_header(); ?>
                 </div>
               </div>
             </div>
-
+          </div>
 
           <div class="appointment-section" style="background-repeat: no-repeat;background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/golf.jpg);background-attachment: fixed;background-position: center right;background-repeat: no-repeat;background-size: cover;">
             <div class="info-content">
@@ -175,7 +175,7 @@ get_header(); ?>
                 </div>
               </div>
             </div>
-          </div>
+
 
 
           <?php comments_template(); ?>
