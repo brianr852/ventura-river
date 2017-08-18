@@ -75,13 +75,13 @@ get_header(); ?>
           <div>
           </div>
 
-          <div class="why-section" style="background-repeat: no-repeat;background-image: url(<?php echo get_template_directory_uri(); ?>/img/house-wire-model-fade-white-1500x1085.png);background-attachment: fixed;background-position: top left;background-repeat: no-repeat;background-size: cover;">
+
             <div class="container-fluid">
               <div class="row">
                 <div class="col-md-3">
                   <div class="icon-content"><i class="fa fa-newspaper-o" aria-hidden="true"></i></div>
-                  <div class="why-content">
-                    <div class="why-title">E-Billing</div>
+                  <div class="icon-section">
+                    <div class="icon-title">E-Billing</div>
                     <p>Sign up for e-billing and online payment options. Autopay/ACH is free. Service fees will apply to credit/debit card/ e-check payments.
                     </p>
                   <!--  <a href=""><button class="slider-btn">Pay Online</button></a> -->
@@ -89,16 +89,16 @@ get_header(); ?>
                 </div>
                 <div class="col-md-3">
                   <div class="icon-content"><i class="fa fa-certificate" aria-hidden="true"></i></div>
-                  <div class="why-content">
-                    <div class="why-title">Authority to Operate</div>
+                  <div class="icon-section">
+                    <div class="icon-title">Authority to Operate</div>
                     <p>Click here to read about our authority to operate
                     </p>
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="icon-content"><i class="fa fa-clock-o" aria-hidden="true"></i></div>
-                  <div class="why-content">
-                    <div class="why-title">Hours of Operation</div>
+                  <div class="icon-section">
+                    <div class="icon-title">Hours of Operation</div>
                     <p>We are open Monday through Friday. <br>
                       7:30 A.M. to 4:30 P.M.
                     </p>
@@ -106,8 +106,8 @@ get_header(); ?>
                 </div>
                 <div class="col-md-3">
                   <div class="icon-content"><i class="fa fa-newspaper-o" aria-hidden="true"></i></div>
-                  <div class="why-content">
-                    <div class="why-title">Mission Statement</div>
+                  <div class="icon-section">
+                    <div class="icon-title">Mission Statement</div>
                     <p>Learn about our mission
                     </p>
                   </div>
@@ -121,7 +121,7 @@ get_header(); ?>
             <div class="container">
               <div class="row">
                 <div class="col-md-6">
-                  <a href="/computer-repair"><img class="service-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/golf.jpg" style="margin:0 auto"></a>
+                  <a href="/computer-repair"><img class="service-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/ojaiwater.jpg" style="margin:0 auto"></a>
                   <div class="service-content">
                     <div class="service-title">Board & Meetings</div>
                     <p>Our Computer Repair services cover any computer whether it is a
@@ -130,7 +130,7 @@ get_header(); ?>
                   </div>
                 </div>
                 <div class="col-md-6">
-                  <a href="/homebusiness-i-t#business"><img class="service-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/golf.jpg" style="margin:0 auto"></a>
+                  <a href="/homebusiness-i-t#business"><img class="service-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/ojaihotsprings.jpg" style="margin:0 auto"></a>
                   <div class="service-content">
                     <div class="service-title">News & Updates</div>
                     <p>Whether you are big or small, a new or existing business, we are here to help.
@@ -140,7 +140,7 @@ get_header(); ?>
                 </div>
               </div>
             </div>
-          </div>
+
 
           <div class="appointment-section" style="background-repeat: no-repeat;background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/golf.jpg);background-attachment: fixed;background-position: center right;background-repeat: no-repeat;background-size: cover;">
             <div class="info-content">
