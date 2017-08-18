@@ -121,7 +121,7 @@ get_header(); ?>
             <div class="container">
               <div class="row">
                 <div class="col-md-6">
-                  <a href="/computer-repair"><img class="service-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/ojaiwater.jpg" style="margin:0 auto"></a>
+                  <a href="#"><img class="service-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/ojaiwater.jpg" style="margin:0 auto"></a>
                   <div class="service-content">
                     <div class="service-title">Board & Meetings</div>
                     <p>Our Computer Repair services cover any computer whether it is a
@@ -130,7 +130,7 @@ get_header(); ?>
                   </div>
                 </div>
                 <div class="col-md-6">
-                  <a href="/homebusiness-i-t#business"><img class="service-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/ojaihotsprings.jpg" style="margin:0 auto"></a>
+                  <a href="#"><img class="service-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/ojaihotsprings.jpg" style="margin:0 auto"></a>
                   <div class="service-content">
                     <div class="service-title">News & Updates</div>
                     <p>Whether you are big or small, a new or existing business, we are here to help.

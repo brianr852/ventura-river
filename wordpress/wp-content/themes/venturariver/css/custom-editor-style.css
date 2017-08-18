@@ -9359,7 +9359,7 @@ h3 {
 
 .forms-section {
   background: linear-gradient(to right, rgba(255, 255, 255, 0) 0, #f9feff 851px, white 290px), url(http://localhost:3000/wp-content/themes/venturariver/assets/img/maxresdefault.jpg) no-repeat, url("http://localhost:3000/wp-content/themes/venturariver/assets/img/water.png") no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   padding: 30px; }
 
 .status-content {
